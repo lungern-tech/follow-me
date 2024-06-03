@@ -25,6 +25,7 @@ const manifest = Object.assign(
     name: '__MSG_extensionName__',
     version: packageJson.version,
     description: '__MSG_extensionDescription__',
+    "permissions": ["activeTab"],
     // permissions: ['storage'].concat(sidePanelConfig.permissions),
     // options_page: 'options/index.html',
     // background: {
@@ -47,11 +48,11 @@ const manifest = Object.assign(
       //   js: ['content/index.iife.js'],
       // },
       {
-        matches: ['http://*/*', 'https://*/*', '<all_urls>'],
+        matches: ['http://*/*', 'https://*/*'],
         js: ['content-ui/index.iife.js'],
       },
       {
-        matches: ['http://*/*', 'https://*/*', '<all_urls>'],
+        matches: ['http://*/*', 'https://*/*'],
         css: ['content.css'], // public folder
       },
     ],
