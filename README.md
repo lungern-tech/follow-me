@@ -4,4 +4,4 @@
 
 Select and Follow
 
-Follow me at X: @AirdropSeeker
+Follow me at X: @ScapeSeeker
