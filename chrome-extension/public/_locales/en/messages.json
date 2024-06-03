@@ -1,10 +1,10 @@
 {
   "extensionDescription": {
-    "description": "Extension description",
-    "message": "Chrome extension boilerplate developed with Vite, React and Typescript"
+    "description": "select, open and follow",
+    "message": "No more copy, paste, open and follow. Just select and open. "
   },
   "extensionName": {
-    "description": "Extension name",
-    "message": "Chrome extension boilerplate"
+    "description": "Fast Follow",
+    "message": "Fast Follow"
   }
 }
